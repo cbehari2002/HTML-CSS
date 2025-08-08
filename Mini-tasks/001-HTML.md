@@ -14,7 +14,7 @@
     </head>
     <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <div>
+        </div>
             <div>
                 Guvi Geek Network
             </div>
@@ -32,7 +32,7 @@
     </head>
     <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <div>
+        </div>
             <div>
                 Guvi Geek Network
             </div>
@@ -64,15 +64,66 @@
   - MySQL
   - MongoDB
   - Cansandra
+  - 
+
+  HTML code:
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Programming Languages and Databases</title>
+</head>
+<body>
+    <h1>Programming Language</h1>
+    <ul>
+        <li>JavaScript
+            <ol>
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ol>
+        </li>
+        <li>Python
+            <ol>
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+            </ol>
+        </li>
+        <li>Java
+            <ol>
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol>
+        </li>
+    </ul>
+    
+    <h1>Database</h1>
+    <ul>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Cansandra</li>
+    </ul>
+</body>
+</html>
 
 ---
 
 5. Create an element that helps you to open the https://google.com in separate new tab.
-
+<a href="https://google.com" target="_blank">Google</a>
 ---
 
 6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+<form>
+  <label>Employee Type:</label><br>
 
+  <input type="radio" id="salaried" name="employeeType" value="Salaried">
+  <label for="salaried">Salaried</label><br>
+
+  <input type="radio" id="ownBusiness" name="employeeType" value="Own Business">
+  <label for="ownBusiness">Own Business</label><br>
+</form>
 ---
 
 7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
@@ -90,7 +141,20 @@
 10. In your, HTML page add the below line and Highlight it without using any CSS.
 
 - "HTML & CSS is awesome"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Highlight Text</title>
+</head>
+<body>
 
+<h1>Welcome to My Page</h1>
+
+<p><mark>HTML & CSS is awesome</mark></p>
+
+</body>
+</html>
 ---
 
 11. Create an HTML page, which should contain all types of input elements.
